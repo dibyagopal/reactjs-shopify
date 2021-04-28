@@ -9,18 +9,18 @@ class Cart extends Component {
   }
 
   openCheckout() {
-    const shippingAddress = {
-      address1: 'Chestnut Street 92',
-      address2: 'Apartment 2',
-      city: 'Louisville',
-      company: null,
-      country: 'United States',
-      firstName: 'Bob',
-      lastName: 'Norman',
-      phone: '555-625-1199',
-      province: 'Kentucky',
-      zip: '40202'
-    };
+    // const shippingAddress = {
+    //   address1: 'Chestnut Street 92',
+    //   address2: 'Apartment 2',
+    //   city: 'Louisville',
+    //   company: null,
+    //   country: 'United States',
+    //   firstName: 'Bob',
+    //   lastName: 'Norman',
+    //   phone: '555-625-1199',
+    //   province: 'Kentucky',
+    //   zip: '40202'
+    // };
    
    // Update the shipping address for an existing checkout.
   //  console.log(this.props.client);
