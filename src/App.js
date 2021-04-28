@@ -44,7 +44,7 @@ class App extends Component {
       isCartOpen: true,
     });
 
-    const lineItemsToAdd = [{variantId, quantity: parseInt(quantity, 10), customAttributes: [{key: "Story Id", value: "DF35N3C"}]}]
+    const lineItemsToAdd = [{variantId, quantity: parseInt(quantity, 10), customAttributes: [{key: "Story Id", value: "DF35NR"}]}]
     const checkoutId = this.state.checkout.id
 
     return this.props.client.checkout.addLineItems(checkoutId, lineItemsToAdd).then(res => {
